@@ -6,118 +6,121 @@
     <title>Советник</title>
 </head>
 <body>
-    <header>
-        <img alt="logo" src="assets/logo.svg" />
-        <nav>
+    <header class="header">
+        <img alt="logo" src="assets/logo.svg" class="header--logo"/>
+        <nav class="header--nav">
             <ul>
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">О Вас</a></li>
-                <li><a href="#">Услуги</a></li>
-                <li><a href="#">Карта сайта</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><a href="#" class="header-nav--item">Главная</a></li>
+                <li><a href="#" class="header-nav--item">О Вас</a></li>
+                <li><a href="#" class="header-nav--item">Услуги</a></li>
+                <li><a href="#" class="header-nav--item">Карта сайта</a></li>
+                <li><a href="#" class="header-nav--item">Контакты</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section>
-            <img alt="logo" src="assets/logo-section.svg"/>
-            <h2>Для руководителей, которые поставили амбициозные цели</h2>
+    <main class="main">
+        <section class="main--header">
+            <img alt="logo" src="assets/logo-section.svg" class="main-header--logo"/>
+            <h2 class="main-header--description">Для руководителей, которые поставили амбициозные цели</h2>
         </section>
 
-        <section>
-            <div>
-                <h2>Получить консультацию</h2>
-                <h3>Опишите ситуацию или задайте вопрос, который Вас интересует </h3>
+        <section class="main--search">
+            <div class="main-search--description">
+                <h2 class="main-search-description--header">Получить консультацию</h2>
+                <h3 class="main-search-description--text">Опишите ситуацию или задайте вопрос, который Вас интересует </h3>
             </div>
-            <form>
-                <p><input type="search" placeholder="Что Вы хотели бы узнать?">
-                    <input type="submit" value="->"></p>
+            <form class="main-search--form">
+                <p><input class="main-search-from--input" type="search" placeholder="Что Вы хотели бы узнать?">
+                    <input class="main-search-from--submit" type="submit" value="->"></p>
             </form>
         </section>
 
-        <section>
-            <button>Дмитрий Новосёлов</button>
-            <h2>Как писать SEO- тексты — ТОП 7 правил</h2>
-            <h3>Уже давно не было такого, чтобы я написал какой-то SEO текст, а он не вышел в ТОП Яндекса.</h3>
-        </section>
+        <article class="main--contents">
 
-        <section>
-            <button>Дмитрий Новосёлов</button>
-            <h2>10 примеров рекламных постов вк</h2>
-            <h3>Уже давно не было такого, чтобы я написал какой-то SEO текст, а он не вышел в ТОП Яндекса.</h3>
-        </section>
+            <section class="main-content content-size-l">
+                <button class="main-content--button">Дмитрий Новосёлов</button>
+                <h2 class="main-content--title">Как писать SEO- тексты — ТОП 7 правил</h2>
+                <h3 class="main-content--description">Уже давно не было такого, чтобы я написал какой-то SEO текст, а он не вышел в ТОП Яндекса.</h3>
+            </section>
 
-        <section>
-            <h1>Сильная</h1>
-            <h2>команда За 5 дней</h2>
-            <h3>Узнайте как руководителю создать сильную команду</h3>
-            <form>
-                <input type="text" placeholder="Введите Ваш Email">
-                <button>Скачать бесплатно</button>
-            </form>
-        </section>
+            <section class="main-content content-size-m">
+                <button class="main-content--button">Дмитрий Новосёлов</button>
+                <h2 class="main-content--title">10 примеров рекламных постов вк</h2>
+                <h3 class="main-content--description">Уже давно не было такого, чтобы я написал какой-то SEO текст, а он не вышел в ТОП Яндекса.</h3>
+            </section>
 
-        <section>
-            <button>Дмитрий Новосёлов</button>
-            <h2>10 примеров рекламных постов вк</h2>
-            <h3>Уже давно не было такого, чтобы я написал какой-то SEO текст, а он не вышел в ТОП Яндекса.</h3>
-        </section>
+            <section class="main-content content-size-m">
+                <h1 class="content-size-m--header">Сильная</h1>
+                <h2 class="content-size-m--title">команда За 5 дней</h2>
+                <h3 class="content-size-m--description">Узнайте как руководителю создать сильную команду</h3>
+                <form class="content-size-m--form">
+                    <input class="content-size-m-form--input" type="text" placeholder="Введите Ваш Email">
+                    <button class="content-size-m-form--button">Скачать бесплатно</button>
+                </form>
+            </section>
 
-        <section>
-            <button>Дмитрий Новосёлов</button>
-            <h2>Лидогенерация с оплатой за результат</h2>
-            <h3>Уже давно не было такого, чтобы я написал какой-то SEO текст, а он не вышел в ТОП Яндекса.</h3>
-        </section>
+            <section class="main-content content-size-s">
+                <button class="content-size-s--button">Дмитрий Новосёлов</button>
+                <h2 class="content-size-s--title">10 примеров рекламных постов вк</h2>
+                <h3 class="content-size-s--description">Уже давно не было такого, чтобы я написал какой-то SEO текст, а он не вышел в ТОП Яндекса.</h3>
+            </section>
 
-        <section>
-            <figure>
-                <img alt="author-post" src="assets/icon-maria.png">
-                <figcaption>“Convert Monster”</figcaption>
-            </figure>
-            <h1>Клюева Мария</h1>
-            <h2>Привет читающим отзывы!) Хотела бы оставить свой отзыв о курсе обучения. С первых дней посещений лекций уже становится заметно, ребята тут серьёзные и профессиональные. План курсов помогает освоить азы перечисленных программой тем. </h2>
-        </section>
+            <section class="main-content content-size-s">
+                <button class="content-size-s--button">Дмитрий Новосёлов</button>
+                <h2 class="content-size-s--title">Лидогенерация с оплатой за результат</h2>
+                <h3 class="content-size-s--description">Уже давно не было такого, чтобы я написал какой-то SEO текст, а он не вышел в ТОП Яндекса.</h3>
+            </section>
+
+            <section class="main-content content-review">
+                <figure class="content-review--figure">
+                    <img alt="author-post" src="assets/icon-maria.png" class="content-review-figure--author">
+                    <figcaption class="content-review-figure--label">“Convert Monster”</figcaption>
+                </figure>
+                <h1 class="content-review--title">Клюева Мария</h1>
+                <h2 class="content-review--text">Привет читающим отзывы!) Хотела бы оставить свой отзыв о курсе обучения. С первых дней посещений лекций уже становится заметно, ребята тут серьёзные и профессиональные. План курсов помогает освоить азы перечисленных программой тем. </h2>
+            </section>
+        </article>
     </main>
 
-    <footer>
-        <img alt="logo" src="assets/logo-footer.svg" />
-        <section>
-            <span>Навигация</span>
+    <footer class="footer">
+        <img alt="logo" src="assets/logo-footer.svg" class="footer--logo"/>
+        <section class="footer--nav">
             <nav>
                 <ul>
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="#">О Вас</a></li>
-                    <li><a href="#">Услуги</a></li>
-                    <li><a href="#">Карта сайта</a></li>
-                    <li><a href="#">Контакты</a></li>
+                    <li class="footer-nav--item item--head">Навигация</li>
+                    <li><a href="#" class="footer-nav--item">Главная</a></li>
+                    <li><a href="#" class="footer-nav--item">О Вас</a></li>
+                    <li><a href="#" class="footer-nav--item">Услуги</a></li>
+                    <li><a href="#" class="footer-nav--item">Карта сайта</a></li>
+                    <li><a href="#" class="footer-nav--item">Контакты</a></li>
                 </ul>
             </nav>
         </section>
 
-        <section>
-            <span>Реквизиты</span>
+        <section class="footer--requisites">
             <ul>
-                <li>Инн: </li>
-                <li>525624553474</li>
-                <li>Огрнип: </li>
-                <li>312525616000033</li>
+                <li class="footer-requisites--item item--head">Реквизиты</li>
+                <li class="footer-requisites--item">Инн: </li>
+                <li class="footer-requisites--item">525624553474</li>
+                <li class="footer-requisites--item">Огрнип: </li>
+                <li class="footer-requisites--item">312525616000033</li>
             </ul>
         </section>
 
-        <section>
-            <span>Мы в соц.сетях</span>
-            <div>
-                <a href="#"><img alt="icon-instagram" src="assets/icon-instagram.svg" /></a>
-                <a href="#"><img alt="icon-vk" src="assets/icon-vk.svg" /></a>
-                <a href="#"><img alt="icon-youtube" src="assets/icon-youtube.svg" /></a>
-                <a href="#"><img alt="icon-facebook" src="assets/icon-facebook.svg" /></a>
+        <section class="footer--social">
+            <span class="footer-social--head">Мы в соц.сетях</span>
+            <div class="footer-social--icons">
+                <a href="#" class="footer-social-icons--link"><img alt="icon-instagram" src="assets/icon-instagram.svg" class="footer-social-icons--item"/></a>
+                <a href="#" class="footer-social-icons--link"><img alt="icon-vk" src="assets/icon-vk.svg" class="footer-social-icons--item"/></a>
+                <a href="#" class="footer-social-icons--link"><img alt="icon-youtube" src="assets/icon-youtube.svg" class="footer-social-icons--item"/></a>
+                <a href="#" class="footer-social-icons--link"><img alt="icon-facebook" src="assets/icon-facebook.svg" class="footer-social-icons--item"/></a>
             </div>
         </section>
 
-        <section>
-            <div><a href="#">Политика конфиденциальности</a></div>
-            <div>© 2012-2020 Sovetnik</div>
+        <section class="footer--document">
+            <div class="footer-document--politic"><a href="#" class="footer-document-politic--link">Политика конфиденциальности</a></div>
+            <div class="footer-document--date">© 2012-2020 Sovetnik</div>
         </section>
     </footer>
 </body>
