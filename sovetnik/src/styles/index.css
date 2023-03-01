@@ -426,7 +426,6 @@ body {
 }
 
 .content-size-s {
-    margin-top: 20px;
     width: 234px;
     height: 181px;
     background: var(--color-background-content);
@@ -469,7 +468,6 @@ body {
     background-color: var(--color-basic-background);
     border: 1px solid var(--color-review-border);
     border-radius: 5px;
-    margin-top: 20px;
     padding: 38px 46px 38px 36px;
     display: flex;
     flex-direction: row;
