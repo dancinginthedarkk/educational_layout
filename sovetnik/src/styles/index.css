@@ -243,6 +243,14 @@ body {
     justify-content: space-between;
 }
 
+.main-content__article {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+    flex-direction: row;
+    margin-bottom: 118px;
+}
+
 .main-content__container {
     display: flex;
     flex-direction: column;
@@ -252,8 +260,8 @@ body {
 .content-size-l {
     background-image: url("../assets/main/content-1.png");
     background-color: var(--color-background-content);
-    height: 353px;
-    width: 591px;
+    height: 308px;
+    width: 536px;
     margin-top: 20px;
     border-radius: 5px;
     padding: 25px 30px 20px 25px;
@@ -325,8 +333,8 @@ body {
 }
 
 .content-size-m {
-    height: 353px;
-    width: 285px;
+    height: 308px;
+    width: 230px;
     margin-top: 20px;
     border-radius: 5px;
     padding: 25px 30px 20px 25px;
@@ -339,8 +347,8 @@ body {
 }
 
 .content-form {
-    width: 285px;
-    height: 352px;
+    width: 253px;
+    height: 302px;
     margin-top: 20px;
     padding: 30px 15px 20px 17px;
     background-image: url("../assets/main/content-3.jpg");
@@ -419,8 +427,8 @@ body {
 
 .content-size-s {
     margin-top: 20px;
-    width: 285px;
-    height: 215px;
+    width: 234px;
+    height: 181px;
     background: var(--color-background-content);
     border-radius: 5px;
     padding: 16px 27px 18px 24px;
@@ -456,7 +464,8 @@ body {
 .main-content__review {
     background-image: url("../assets/main/review.png");
     background-size: cover;
-    width: 589px;
+    width: 507px;
+    height: 139px;
     background-color: var(--color-basic-background);
     border: 1px solid var(--color-review-border);
     border-radius: 5px;
