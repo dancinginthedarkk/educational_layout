@@ -237,6 +237,18 @@ body {
     height: 24px;
 }
 
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-content__container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .content-size-l {
     background-image: url("../assets/main/content-1.png");
     background-color: var(--color-background-content);
@@ -321,6 +333,9 @@ body {
     background-color: var(--color-background-content);
     background-image: url("../assets/main/content-2.png");
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .content-form {
