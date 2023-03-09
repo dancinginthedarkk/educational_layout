@@ -35,16 +35,16 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.container {
+    width: 1200px;
+}
+
 .header {
     background-color: var(--color-basic-background);
     width: 100%;
     display: flex;
     justify-content: center;
     height: 70px;
-}
-
-.container {
-    width: 1200px;
 }
 
 .header__container {
@@ -101,8 +101,6 @@ body {
     text-decoration: none;
     color: var(--color-basic);
 }
-
-/*main*/
 
 .main {
     display: flex;
@@ -520,9 +518,6 @@ body {
     align-items: flex-start;
 }
 
-/*footer*/
-
-
 .footer {
     display: flex;
     justify-content: center;
@@ -670,3 +665,4 @@ body {
     width: 93px;
     height: 93px;
 }
+
