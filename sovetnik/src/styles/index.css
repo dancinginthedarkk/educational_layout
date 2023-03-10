@@ -35,16 +35,16 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.container {
+    width: 1200px;
+}
+
 .header {
     background-color: var(--color-basic-background);
     width: 100%;
     display: flex;
     justify-content: center;
     height: 70px;
-}
-
-.container {
-    width: 1200px;
 }
 
 .header__container {
@@ -102,8 +102,6 @@ body {
     color: var(--color-basic);
 }
 
-/*main*/
-
 .main {
     display: flex;
     justify-content: center;
@@ -112,7 +110,7 @@ body {
 .main-header {
     display: flex;
     justify-content: center;
-    background-image: url("../assets/main/main-banner.png");
+    background-image: url("../assets/banners/main-banner.png");
     background-color: var(--color-basic);
     height: 208px;
     margin-top: 45px;
@@ -147,7 +145,7 @@ body {
 .main-search {
     display: flex;
     justify-content: center;
-    background-image: url("../assets/main/consultation-banner.png");
+    background-image: url("../assets/banners/consultation-banner.png");
     background-color: var(--color-background-search);
     height: 143px;
     margin-top: 40px;
@@ -216,7 +214,7 @@ body {
     width: 62px;
     height: 58px;
     background-color: var(--color-form-about-submit);
-    background-image: url("../assets/main/right.svg");
+    background-image: url("../assets/utils/right.svg");
     background-position: center;
     background-repeat: no-repeat;
     border: var(--color-form-about-submit);
@@ -226,7 +224,7 @@ body {
 
 .form-about__submit:hover {
     background-color: var(--color-form-about-submit-hover);
-    background-image: url("../assets/main/right.svg");
+    background-image: url("../assets/utils/right.svg");
 }
 
 .main-content {
@@ -250,7 +248,7 @@ body {
 }
 
 .content-size-l {
-    background-image: url("../assets/main/content-1.png");
+    background-image: url("../assets/content-pictures/content-1.png");
     background-color: var(--color-background-content);
     height: 308px;
     width: 536px;
@@ -331,7 +329,7 @@ body {
     border-radius: 5px;
     padding: 25px 30px 20px 25px;
     background-color: var(--color-background-content);
-    background-image: url("../assets/main/content-2.png");
+    background-image: url("../assets/content-pictures/content-2.png");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -343,7 +341,7 @@ body {
     height: 302px;
     margin-top: 20px;
     padding: 30px 15px 20px 17px;
-    background-image: url("../assets/main/content-3.jpg");
+    background-image: url("../assets/content-pictures/content-3.jpg");
     background-color: var(--color-background-content-size-m-form);
     background-size: cover;
 }
@@ -443,17 +441,17 @@ body {
 }
 
 .content-size-s--machine {
-    background-image: url("../assets/main/content-4.jpg");
+    background-image: url("../assets/content-pictures/content-4.jpg");
     background-size: cover;
 }
 
 .content-size-s--lido-generation {
-    background-image: url("../assets/main/content-5.jpg");
+    background-image: url("../assets/content-pictures/content-5.jpg");
     background-size: cover;
 }
 
 .main-content__review {
-    background-image: url("../assets/main/review.png");
+    background-image: url("../assets/utils/review.png");
     background-size: cover;
     width: 507px;
     height: 139px;
@@ -519,9 +517,6 @@ body {
     flex-direction: column;
     align-items: flex-start;
 }
-
-/*footer*/
-
 
 .footer {
     display: flex;
@@ -670,3 +665,4 @@ body {
     width: 93px;
     height: 93px;
 }
+
