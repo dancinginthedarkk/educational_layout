@@ -59,7 +59,7 @@ body {
     height: 208px;
     display: flex;
     justify-content: center;
-    background-image: url(../assets/main/main-banner.png);
+    background-image: url(../assets/banners/main-banner.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: var(--color-basic);
@@ -305,12 +305,12 @@ body {
 }
 
 .content-form {
-    background-image: url("../assets/main/content-3.jpg");
+    background-image: url("../assets/content-pictures/content-3.jpg");
     background-color: var(--color-background-content-form);
 }
 
 .content-leader {
-    background-image: url("../assets/main/content-6.png");
+    background-image: url("../assets/content-pictures/content-6.png");
     background-color: var(--color-background-content-leader);
 }
 
@@ -499,12 +499,12 @@ body {
 }
 
 .content-size-s--machine {
-    background-image: url("../assets/main/content-4.jpg");
+    background-image: url("../assets/content-pictures/content-4.jpg");
     background-size: cover;
 }
 
 .content-size-s--lido-generation {
-    background-image: url("../assets/main/content-5.jpg");
+    background-image: url("../assets/content-pictures/content-5.jpg");
     background-size: cover;
 }
 
