@@ -44,7 +44,7 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    width: 1200px;
 }
 
 .header {
@@ -438,6 +438,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    gap: 19px;
 }
 
 .similar-posts__header {
