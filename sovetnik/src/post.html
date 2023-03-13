@@ -11,13 +11,16 @@
     <header class="header">
         <div class="container">
             <div class="header__container">
-                <img alt="логотип" src="assets/logo/logo-section.svg" class="header__logo logo"/>
+                <a href="/" class="header__link">
+                    <img alt="логотип" src="assets/logo/logo-section.svg" class="header__logo logo"/>
+                </a>
+
                 <h2 class="header__title">Для руководителей, которые поставили амбициозные цели</h2>
             </div>
             <nav class="header__navigation navigation">
                 <ul class="navigation__list">
                     <li class="navigation__item">
-                        <a href="#" class="navigation__link">Главная</a>
+                        <a href="/" class="navigation__link">Главная</a>
                     </li>
                     <li class="navigation__item">
                         <a href="#" class="navigation__link">О Вас</a>
@@ -26,7 +29,7 @@
                         <a href="#" class="navigation__link">Услуги</a>
                     </li>
                     <li class="navigation__item">
-                        <a href="#" class="navigation__link">Карта сайта</a>
+                        <a href="/post" class="navigation__link">Статьи</a>
                     </li>
                     <li class="navigation__item">
                         <a href="#" class="navigation__link">Контакты</a>
@@ -37,130 +40,132 @@
     </header>
 
     <main class="main">
-        <div class="container main__container">
+        <div class="container">
 
             <span class="main__header main__header--bold">Главная /
                 <span class="main__header">Название статьи</span>
             </span>
             <hr class="main__hr">
 
-            <section class="main-content post">
-                <div class="post__author">
-                    <img alt="иконка пользователя" src="assets/utils/user-icon.svg" class="post__user-image">
-                    <span class="post__author-name">Дмитрий Новосёлов</span>
-                </div>
+            <div class="main__container">
+                <section class="main-content post">
+                    <div class="post__author">
+                        <img alt="иконка пользователя" src="assets/utils/user-icon.svg" class="post__user-image">
+                        <span class="post__author-name">Дмитрий Новосёлов</span>
+                    </div>
 
-                <h1 class="post__title">Как писать SEO-тексты — ТОП 7 правил</h1>
+                    <h1 class="post__title">Как писать SEO-тексты — ТОП 7 правил</h1>
 
-                <ul class="main-content__social social">
-                    <li class="social__item">
-                        <img src="assets/socials/icon-view-mini.svg" alt="просмотров" class="social__icon">
-                        <span class="social__value">52</span>
-                    </li>
-                    <li class="social__item">
-                        <img src="assets/socials/icon-share-mini.svg" alt="поделились" class="social__icon">
-                        <span class="social__value">16</span>
-                    </li>
-                    <li class="social__item">
-                        <img src="assets/socials/icon-vk-mini.svg" alt="вк" class="social__icon">
-                        <span class="social__value">52</span>
-                    </li>
-                    <li class="social__item">
-                        <img src="assets/socials/icon-inst-mini.svg" alt="инстаграм" class="social__icon">
-                        <span class="social__value">52</span>
-                    </li>
-                    <li class="social__item">
-                        <img src="assets/socials/icon-facebook-mini.svg" alt="фейсбук" class="social__icon">
-                        <span class="social__value">52</span>
-                    </li>
-                </ul>
-
-                <img alt="картинка поста" src="assets/content-pictures/section-img.svg" class="post__image">
-                <div class="post__main-text">
-                    Уже давно не было такого, чтобы я написал какой-то SEO текст, а он не вышел в ТОП Яндекса. Для написания своих текстов я пользуюсь одной и той же формулой, которая состоит из 7 пунктов. И в этой статье я расскажу и покажу вам, как правильно писать SEO тексты, чтобы они быстро выходили в ТОП и оставались там навсегда.
-                    Только должен сразу предупредить. Многое из того, что вы здесь найдете, идет в разрез с официальными рекомендациями «гуру». Но если это работает, то какие претензии, правильно?
-                    Сразу оговорюсь, что тут мы рассматриваем выход в ТОП через статьи. SEO тексты для карточек интернет-магазина будут писаться немного по другим правилам. Об этом вы можете прочитать в моей статье «SEO интернет-магазина на 100% (и бесплатно)» (откроется в новой вкладке).
-                    И давайте разберем все 7 правил по порядку.
-                    Первый «секрет» у нас будет из разряда очевидных. Но сказать об этом надо обязательно. Ваш SEO текст обязательно должен быть написан под конкретный ключевой запрос. Другими словами – вы должны сначала найти конкретный запрос, который пользователи задают в поисковой системе, а потом написать под этот запрос свой ответ – статью.
-                    Удивительно, но очень многие люди продолжают писать статьи «на глазок». Например – у нас сайт для женщин. И мы хотим написать статью на тему «Как быть желанной девушкой». Как вы думаете, это интересная тема для девушек? Ну еще бы! Принесет ли наша статья им пользу? Безусловно!
-                    Проблема только в том, что наша статья с таким заголовком никогда не будет стоять в ТОПе. Просто потому, что ТОПа для такого запроса не существует.
-                    Открываем инструмент Яндекс.Вордстат для подбора ключевых слов по этой ссылке. Вводим запрос «как быть желанной девушкой» и нажимаем Enter. Вордстат должен показать вам примерно такой результат.
-                </div>
-                <hr class="main__hr">
-
-                <div class="post-rating">
-                    <span class="post-rating__title">Оцените статью:</span>
-                    <ul class="post-rating__list">
-                        <li>
-                            <img class="post-rating__item star star--full" src="assets/utils/star.svg" alt="звезда">
+                    <ul class="main-content__social social">
+                        <li class="social__item">
+                            <img src="assets/socials/icon-view-mini.svg" alt="просмотров" class="social__icon">
+                            <span class="social__value">52</span>
                         </li>
-                        <li>
-                            <img class="post-rating__item star star--full" src="assets/utils/star.svg" alt="звезда">
+                        <li class="social__item">
+                            <img src="assets/socials/icon-share-mini.svg" alt="поделились" class="social__icon">
+                            <span class="social__value">16</span>
                         </li>
-                        <li>
-                            <img class="post-rating__item star star--full" src="assets/utils/star.svg" alt="звезда">
+                        <li class="social__item">
+                            <img src="assets/socials/icon-vk-mini.svg" alt="вк" class="social__icon">
+                            <span class="social__value">52</span>
                         </li>
-                        <li>
-                            <img class="post-rating__item star star--middle" src="assets/utils/star.svg" alt="звезда">
+                        <li class="social__item">
+                            <img src="assets/socials/icon-inst-mini.svg" alt="инстаграм" class="social__icon">
+                            <span class="social__value">52</span>
                         </li>
-                        <li>
-                            <img class="post-rating__item star star--lower" src="assets/utils/star.svg" alt="звезда">
+                        <li class="social__item">
+                            <img src="assets/socials/icon-facebook-mini.svg" alt="фейсбук" class="social__icon">
+                            <span class="social__value">52</span>
                         </li>
                     </ul>
-                    <span class="post-rating__subtitle"> 20 голосов (в среднем: 4 из 5) </span>
-                </div>
-                <hr class="main__hr">
 
-                <ul class="post__social social-post">
-                    <li class="social-post__item">
-                        <a href="" class="social-post__link">
-                            <img alt="твиттер" src="assets/socials/icon-twitter.png" class="social-post__icon">
-                        </a>
-                    </li>
-                    <li class="social-post__item">
-                        <a href="" class="social-post__link">
-                            <img alt="вк" src="assets/socials/icon-vk.png" class="social-post__icon">
-                        </a>
-                    </li>
-                    <li class="social-post__item">
-                        <a href="" class="social-post__link">
-                            <img alt="google plus" src="assets/socials/icon-google+.png" class="social-post__icon">
-                        </a>
-                    </li>
-                    <li class="social-post__item">
-                        <a href="" class="social-post__link">
-                            <img alt="фейсбук" src="assets/socials/icon-facebook.png" class="social-post__icon">
-                        </a>
-                    </li>
-                </ul>
-            </section>
+                    <img alt="картинка поста" src="assets/content-pictures/section-img.svg" class="post__image">
+                    <div class="post__main-text">
+                        Уже давно не было такого, чтобы я написал какой-то SEO текст, а он не вышел в ТОП Яндекса. Для написания своих текстов я пользуюсь одной и той же формулой, которая состоит из 7 пунктов. И в этой статье я расскажу и покажу вам, как правильно писать SEO тексты, чтобы они быстро выходили в ТОП и оставались там навсегда. <br class="post__br" />
+                        Только должен сразу предупредить. Многое из того, что вы здесь найдете, идет в разрез с официальными рекомендациями «гуру». Но если это работает, то какие претензии, правильно? <br class="post__br" />
+                        Сразу оговорюсь, что тут мы рассматриваем выход в ТОП через статьи. SEO тексты для карточек интернет-магазина будут писаться немного по другим правилам. Об этом вы можете прочитать в моей статье «SEO интернет-магазина на 100% (и бесплатно)» (откроется в новой вкладке). <br class="post__br" />
+                        И давайте разберем все 7 правил по порядку. <br class="post__br" />
+                        Первый «секрет» у нас будет из разряда очевидных. Но сказать об этом надо обязательно. Ваш SEO текст обязательно должен быть написан под конкретный ключевой запрос. Другими словами – вы должны сначала найти конкретный запрос, который пользователи задают в поисковой системе, а потом написать под этот запрос свой ответ – статью. <br class="post__br" />
+                        Удивительно, но очень многие люди продолжают писать статьи «на глазок». Например – у нас сайт для женщин. И мы хотим написать статью на тему «Как быть желанной девушкой». Как вы думаете, это интересная тема для девушек? Ну еще бы! Принесет ли наша статья им пользу? Безусловно! <br class="post__br" />
+                        Проблема только в том, что наша статья с таким заголовком никогда не будет стоять в ТОПе. Просто потому, что ТОПа для такого запроса не существует. <br class="post__br" />
+                        Открываем инструмент Яндекс.Вордстат для подбора ключевых слов по этой ссылке. Вводим запрос «как быть желанной девушкой» и нажимаем Enter. Вордстат должен показать вам примерно такой результат. <br class="post__br" />
+                    </div>
+                    <hr class="main__hr">
 
-            <aside class="main-aside">
-                <section class="offer content-form">
-                    <h1 class="content-form__header content-form__header--upper-case">Сильная
-                        <span class="content-form__header">команда за 5 дней</span>
-                        <span class="content-form__description">Узнайте как руководителю создать сильную команду</span>
-                    </h1>
-                    <form class="content-form__form">
-                        <input class="content-form__input" type="email" placeholder="Введите Ваш Email">
-                        <button type="submit" class="offer__submit offer__submit--purple">Скачать бесплатно</button>
-                    </form>
+                    <div class="post-rating">
+                        <span class="post-rating__title">Оцените статью:</span>
+                        <ul class="post-rating__list">
+                            <li>
+                                <img class="post-rating__item star star--full" src="assets/utils/star.svg" alt="звезда">
+                            </li>
+                            <li>
+                                <img class="post-rating__item star star--full" src="assets/utils/star.svg" alt="звезда">
+                            </li>
+                            <li>
+                                <img class="post-rating__item star star--full" src="assets/utils/star.svg" alt="звезда">
+                            </li>
+                            <li>
+                                <img class="post-rating__item star star--middle" src="assets/utils/star.svg" alt="звезда">
+                            </li>
+                            <li>
+                                <img class="post-rating__item star star--lower" src="assets/utils/star.svg" alt="звезда">
+                            </li>
+                        </ul>
+                        <span class="post-rating__subtitle"> 20 голосов (в среднем: 4 из 5) </span>
+                    </div>
+                    <hr class="main__hr">
+
+                    <ul class="post__social social-post">
+                        <li class="social-post__item">
+                            <a href="" class="social-post__link">
+                                <img alt="твиттер" src="assets/socials/icon-twitter.png" class="social-post__icon">
+                            </a>
+                        </li>
+                        <li class="social-post__item">
+                            <a href="" class="social-post__link">
+                                <img alt="вк" src="assets/socials/icon-vk.png" class="social-post__icon">
+                            </a>
+                        </li>
+                        <li class="social-post__item">
+                            <a href="" class="social-post__link">
+                                <img alt="google plus" src="assets/socials/icon-google+.png" class="social-post__icon">
+                            </a>
+                        </li>
+                        <li class="social-post__item">
+                            <a href="" class="social-post__link">
+                                <img alt="фейсбук" src="assets/socials/icon-facebook.png" class="social-post__icon">
+                            </a>
+                        </li>
+                    </ul>
                 </section>
 
-                <section class="offer content-leader">
-                    <h1 class="content-leader__header content-leader__header--upper-case">Как стать лучшим
-                        <span class="content-leader__header">в отделе продаж</span>
-                    </h1>
-                    <button type="submit" class="offer__submit offer__submit--blue">Купить сейчас</button>
-                </section>
+                <aside class="main-aside">
+                    <section class="offer content-form">
+                        <h1 class="content-form__header content-form__header--upper-case">Сильная
+                            <span class="content-form__header">команда за 5 дней</span>
+                            <span class="content-form__description">Узнайте как руководителю создать сильную команду</span>
+                        </h1>
+                        <form class="content-form__form">
+                            <input class="content-form__input" type="email" placeholder="Введите Ваш Email">
+                            <button type="submit" class="offer__submit offer__submit--purple">Скачать бесплатно</button>
+                        </form>
+                    </section>
 
-                <section class="offer content-team content-form">
-                    <h1 class="content-team__header content-team__header--upper-case">Управление командой
-                        <span class="content-team__header">Простыми словами</span>
-                    </h1>
-                    <button type="submit" class="offer__submit offer__submit--purple">Купить сейчас</button>
-                </section>
-            </aside>
+                    <section class="offer content-leader">
+                        <h1 class="content-leader__header content-leader__header--upper-case">Как стать лучшим
+                            <span class="content-leader__header">в отделе продаж</span>
+                        </h1>
+                        <button type="submit" class="offer__submit offer__submit--blue">Купить сейчас</button>
+                    </section>
+
+                    <section class="offer content-team content-form">
+                        <h1 class="content-team__header content-team__header--upper-case">Управление командой
+                            <span class="content-team__header">Простыми словами</span>
+                        </h1>
+                        <button type="submit" class="offer__submit offer__submit--purple">Купить сейчас</button>
+                    </section>
+                </aside>
+            </div>
 
             <section class="main-content similar-posts">
                 <h2 class="similar-posts__header">Похожие статьи</h2>
@@ -294,11 +299,20 @@
 
             <section class="content-comments">
                 <h1 class="content-comments__header">Комментарии</h1>
-                <div class="content-comment__button-container">
-                    <button type="submit" class="content-comments__submit submit--purple">Все</button>
-                    <button type="submit" class="content-comments__submit">ВКонтакте (10)</button>
-                    <button type="submit" class="content-comments__submit">ВКонтакте (10)</button>
-                </div>
+                <ul class="content-comment__list">
+                    <li class="content-comment__item">
+                        <input type="radio" id="all" name="soc" value="text" class="content-comments__input input--purple"/>
+                        <label for="all" class="content-comments__label">Все</label>
+                    </li>
+                    <li class="content-comment__item">
+                        <input type="radio" id="vk1" name="soc" value="text" class="content-comments__input"/>
+                        <label for="vk1" class="content-comments__label">ВКонтакте (10)</label>
+                    </li>
+                    <li class="content-comment__item">
+                        <input type="radio" id="vk2" name="soc" value="text" class="content-comments__input"/>
+                        <label for="vk2" class="content-comments__label">ВКонтакте (10)</label>
+                    </li>
+                </ul>
                 <hr class="content-comments__hr">
                 <h3 class="content-comments__subtitle">Оставить комментарий</h3>
                 <form class="content-comments__form form-comment">
@@ -331,10 +345,10 @@
                 <span class="footer__title">Навигация</span>
                 <nav class="navigation  footer-navigation">
                     <ul class="footer-navigation__list">
-                        <li class="footer-navigation__item"><a href="#" class="footer-navigation__link">Главная</a></li>
+                        <li class="footer-navigation__item"><a href="/" class="footer-navigation__link">Главная</a></li>
                         <li class="footer-navigation__item"><a href="" class="footer-navigation__link">О Вас</a></li>
                         <li class="footer-navigation__item"><a href="" class="footer-navigation__link">Услуги</a></li>
-                        <li class="footer-navigation__item"><a href="" class="footer-navigation__link">Карта сайта</a></li>
+                        <li class="footer-navigation__item"><a href="/post" class="footer-navigation__link">Статьи</a></li>
                         <li class="footer-navigation__item"><a href="" class="footer-navigation__link">Контакты</a></li>
                     </ul>
                 </nav>
