@@ -68,6 +68,7 @@ body {
     border-radius: 5px 5px 0 0;
     flex-direction: column;
     align-items: center;
+    padding: 0 30px 0 30px;
 }
 
 .header__logo {
@@ -78,7 +79,7 @@ body {
 }
 
 .header__link {
-
+    text-align: center;
 }
 
 .header__title {
@@ -110,8 +111,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-evenly;
 }
 
 .navigation__item {
@@ -138,6 +138,8 @@ body {
 .main {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main__header {
@@ -169,8 +171,13 @@ body {
     width: 100%;
 }
 
+.post-heading {
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
 .post__author {
-    margin-top: 56px;
+    /*margin-top: 56px;*/
     display: flex;
     align-items: center;
     gap: 8px;
@@ -235,11 +242,6 @@ body {
 
 .post__image {
     width: 100%;
-    /*width: 74.5%;*/
-    /*height: 44.5%;*/
-    /*max-width: 895px;*/
-    /*max-height: 534px;*/
-    margin-top: 29px;
     border-radius: 5px;
     margin-bottom: 33px;
 }
@@ -325,7 +327,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-top: 175px;
     width: 30%;
 }
 
@@ -335,7 +336,7 @@ body {
     justify-content: space-between;
     /*width: 100%;*/
     /*width: 253px;*/
-    height: 302px;
+    height: 317px;
     padding: 14px 16px 21px 16px;
     background-size: cover;
     border-radius: 5px;
@@ -416,6 +417,7 @@ body {
     font-size: 14px;
     line-height: 125%;
     border-width: 0;
+    cursor: pointer;
 }
 
 .offer__submit--purple {
@@ -470,14 +472,21 @@ body {
     background-color: var(--color-basic-background);
     padding-top: 46px;
     padding-bottom: 59px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .similar-posts__container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
     gap: 19px;
 }
+
+/*увеличить карточки при планшете*/
 
 .similar-posts__header {
     font-family: 'Century Gothic', serif;
@@ -607,7 +616,7 @@ body {
 }
 
 .content-comments__hr {
-    width: 590px;
+    width: 588px;
     border: 1px solid var(--color-border);
 }
 
@@ -638,6 +647,11 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     gap: 11px;
+    width: 285px;
+}
+
+.form-comment__info-textarea {
+    width: 589px;
 }
 
 .form-comment__title {
@@ -649,17 +663,17 @@ body {
 }
 
 .form-comment__input {
-    width: 270px;
     height: 44px;
     background: var(--color-basic-background);
     border: 1px solid var(--color-form-comment-input);
     border-radius: 5px;
     outline: none;
     padding-left: 15px;
+    resize: none;
 }
 
 .form-comment__input--big {
-    width: 574px;
+    /*width: 574px;*/
     height: 132px;
 }
 
@@ -674,6 +688,7 @@ body {
     font-size: 14px;
     line-height: 125%;
     color: var(--color-text);
+    border: none;
 }
 
 .footer {
@@ -681,7 +696,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 256px;
+    /*height: 256px;*/
     background: var(--color-basic-background);
     border-top: 1px solid var(--color-footer-border);
 }
@@ -690,6 +705,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+    flex-wrap: wrap;
 }
 
 .footer__logo {
@@ -826,25 +842,46 @@ body {
 
 /*765 планшет*/
 
-@media (max-width: 375px) {
+@media (max-width: 350px) {
 
     body {
-        padding: 24px 0 15px 15px;
+        padding-top: 0;
     }
 
     .container {
         width: 100%;
+        padding: 24px 15px 15px 15px;
+        margin-left: 15px;
     }
 
-    .footer {
+    .header__container {
+        width: 290px;
+        height: 105px;
+    }
+
+    .header__logo {
+        width: 210px;
+        height: 31px;
+        margin-bottom: 11px;
+    }
+
+    .header__title {
+        font-size: 10px;
+    }
+
+    .header__navigation {
+        height: 44px;
+    }
+
+    .navigation__list {
         display: none;
+    }
+
+    .main__header {
+        margin-top: 0;
     }
 
     .main-aside {
-        display: none;
-    }
-
-    .content-size-s--lido-generation {
         display: none;
     }
 
@@ -853,4 +890,82 @@ body {
         flex-direction: column;
         gap: 16px;
     }
+
+    .content-comments {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .form-comment__container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .content-comments__label {
+        width: 100%;
+        padding: 3px 7px 3px 7px;
+        height: 29px;
+        line-height: 29px;
+        font-size: 10px;
+    }
+
+    .form-comment__info {
+        width: 100%;
+    }
+
+    .content-comments__hr {
+        width: 100%;
+    }
+
+    .form-comment__submit {
+        width: 100%;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .footer__container {
+        margin-top: 0;
+        gap: 26px;
+    }
+
+    .footer__logo {
+        width: 190px;
+        height: 84px;
+        margin: 0 auto;
+    }
+
+    .footer-document {
+        margin-top: 43px;
+    }
+
+    .footer-navigation__image {
+        width: 75px;
+         height: 75px;
+    }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 1200px) {
+
+    .main-aside {
+        display: none;
+    }
+
+    /*.form-comment__info {*/
+    /*    width: 38%;*/
+    /*}*/
+
+    /*.form-comment__info-textarea {*/
+    /*    width: 79%;*/
+    /*}*/
+
+    /*.content-comments__hr {*/
+    /*    width: 79%;*/
+    /*}*/
 }
