@@ -308,6 +308,7 @@ body {
     flex-direction: row;
     gap: 9px;
     margin-bottom: 50px;
+    align-items: center;
 }
 
 .social-post__item {
