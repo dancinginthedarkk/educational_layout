@@ -42,10 +42,10 @@
     <main class="main">
         <div class="container">
 
-            <span class="main__header main__header--bold">Главная /
-                <span class="main__header">Название статьи</span>
-            </span>
-            <hr class="main__hr">
+            <ul class="main__breadcrumb-list">
+                <li class="main__breadcrumb-item"><a class="main__breadcrumb-link" href="/">Главная</a></li>
+                <li class="main__breadcrumb-item"><a class="main__breadcrumb-link" href="#">Название статьи</a></li>
+            </ul>
 
             <section class="post post-heading">
                 <div class="post__author">
@@ -93,7 +93,6 @@
                         Проблема только в том, что наша статья с таким заголовком никогда не будет стоять в ТОПе. Просто потому, что ТОПа для такого запроса не существует. <br class="post__br" />
                         Открываем инструмент Яндекс.Вордстат для подбора ключевых слов по этой ссылке. Вводим запрос «как быть желанной девушкой» и нажимаем Enter. Вордстат должен показать вам примерно такой результат. <br class="post__br" />
                     </div>
-                    <hr class="main__hr">
 
                     <div class="post-rating">
                         <span class="post-rating__title">Оцените статью:</span>
@@ -125,27 +124,26 @@
                         </ul>
                         <span class="post-rating__subtitle"> 20 голосов (в среднем: 4 из 5) </span>
                     </div>
-                    <hr class="main__hr">
 
                     <ul class="post__social social-post">
                         <li class="social-post__item">
                             <a href="" class="social-post__link">
-                                <img alt="твиттер" src="assets/socials/icon-twitter.png" class="social-post__icon">
+                                <button class="social-post__icon icon--twitter"></button>
                             </a>
                         </li>
                         <li class="social-post__item">
                             <a href="" class="social-post__link">
-                                <img alt="вк" src="assets/socials/icon-vk.png" class="social-post__icon">
+                                <button class="social-post__icon icon--vk"></button>
                             </a>
                         </li>
                         <li class="social-post__item">
                             <a href="" class="social-post__link">
-                                <img alt="google plus" src="assets/socials/icon-google+.png" class="social-post__icon">
+                                <button class="social-post__icon icon--google"></button>
                             </a>
                         </li>
                         <li class="social-post__item">
                             <a href="" class="social-post__link">
-                                <img alt="фейсбук" src="assets/socials/icon-facebook.png" class="social-post__icon">
+                                <button class="social-post__icon icon--facebook"></button>
                             </a>
                         </li>
                     </ul>
@@ -317,21 +315,23 @@
 
             <section class="content-comments">
                 <h1 class="content-comments__header">Комментарии</h1>
-                <ul class="content-comment__list">
-                    <li class="content-comment__item">
-                        <input type="radio" id="all" name="soc" value="text" class="content-comments__input input--purple"/>
-                        <label for="all" class="content-comments__label">Все</label>
-                    </li>
-                    <li class="content-comment__item">
-                        <input type="radio" id="vk1" name="soc" value="text" class="content-comments__input"/>
-                        <label for="vk1" class="content-comments__label">ВКонтакте (10)</label>
-                    </li>
-                    <li class="content-comment__item">
-                        <input type="radio" id="vk2" name="soc" value="text" class="content-comments__input"/>
-                        <label for="vk2" class="content-comments__label">ВКонтакте (10)</label>
-                    </li>
-                </ul>
-                <hr class="content-comments__hr">
+                <div class="content-comment__list-container">
+                    <ul class="content-comment__list">
+                        <li class="content-comment__item">
+                            <input type="radio" id="all" name="soc" value="text" class="content-comments__input input--purple"/>
+                            <label for="all" class="content-comments__label">Все</label>
+                        </li>
+                        <li class="content-comment__item">
+                            <input type="radio" id="vk1" name="soc" value="text" class="content-comments__input"/>
+                            <label for="vk1" class="content-comments__label">ВКонтакте (10)</label>
+                        </li>
+                        <li class="content-comment__item">
+                            <input type="radio" id="vk2" name="soc" value="text" class="content-comments__input"/>
+                            <label for="vk2" class="content-comments__label">ВКонтакте (10)</label>
+                        </li>
+                    </ul>
+                </div>
+
                 <h3 class="content-comments__subtitle">Оставить комментарий</h3>
                 <form class="content-comments__form form-comment">
                     <div class="form-comment__container">
@@ -392,22 +392,22 @@
                     <ul class="socials__list">
                         <li class="socials__item">
                             <a href="" class="socials__link">
-                                <img alt="инстаграм" src="assets/socials/icon-instagram.svg" class="socials__icon">
+                                <button class="socials__icon icon--instagram"></button>
                             </a>
                         </li>
                         <li class="socials__item">
                             <a href="" class="socials__link">
-                                <img alt="вк" src="assets/socials/icon-vk.svg" class="socials__icon">
+                                <button class="socials__icon icon--vk"></button>
                             </a>
                         </li>
                         <li class="socials__item">
                             <a href="" class="socials__link">
-                                <img alt="ютуб" src="assets/socials/icon-youtube.svg" class="socials__icon">
+                                <button class="socials__icon icon--youtube"></button>
                             </a>
                         </li>
                         <li class="socials__item">
                             <a href="" class="socials__link">
-                                <img alt="фейсбук" src="assets/socials/icon-facebook.svg" class="socials__icon">
+                                <button class="socials__icon icon--facebook"></button>
                             </a>
                         </li>
                     </ul>
